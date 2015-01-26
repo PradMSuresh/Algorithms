@@ -8,8 +8,8 @@ class stringFunctions {
 	
 	public:
 	
-	string startsWith(string , string);
-	string endsWith(string , string);
+	bool startsWith(string , string);
+	bool endsWith(string , string);
 	string trim (string);
 	string substring(string , int , int);
 	string substring(string , int);
